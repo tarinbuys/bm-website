@@ -1,0 +1,631 @@
+/*Overall page code starts*/
+body{
+    margin: 0px 100px 0px 100px;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+}
+/*overall page code ends*/
+
+/* header section starts*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-logo{
+    width: 80px; 
+    padding: 0;
+    margin-left: -10px;
+}
+.nav-links{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-size: 16px;
+}
+.nav-item{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #05121A;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    font-weight: 700;
+}
+a:active{
+    font-weight: 700;
+    text-decoration: underline;
+}
+.main-cta{
+    font-family: 'Inter';
+    color: #fff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    width: 200px;
+    height: 50px;
+    left: 1022px;
+    top: 58px;
+    background: #374B92;
+    border-radius: 15px;
+    border: none;
+}
+.main-cta:hover{
+    box-shadow: 0px 0px 10px 0.54px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    background-color: #fff;
+    color: #374B92;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 250px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+.mobile-header{
+    display: none;
+  }
+/* header section ends*/
+/* hero section starts*/
+.get-in-touch-hero{
+    height: 300px;
+    width: 700px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.get-in-touch-h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 0.01em;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.get-in-touch-p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    margin: 0;
+    padding: 10px 0px;
+    text-align: center;
+    color: #374B92;
+}
+/* hero section ends*/
+
+/* contact form starts here*/
+.contact-form-section{
+    border: 1px solid rgb(232, 232, 232);
+    border-radius: 15px;
+    padding: 20px;
+    width: 800px;
+    margin: auto;
+}
+::placeholder{
+    font-size: 10px;
+    color: #b4b4b4;
+}
+.name-company-container, .dropdown-container {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 800px;
+}
+#fname, #cname, #email, #ynumber, #budget, #hear-us{
+    background-color: rgba(244, 244, 244, 0.635);
+    border: none;
+    border-radius: 5px;
+    width: 350px;
+    height: 35px;
+}
+#fname-label, #cname-label, #email-label, #number-label, #budget-label, .hear-us-label, #services-label{
+    font-size: 12px;
+    font-weight: 600;
+    padding: 5px 0px;
+}
+.client-info-box{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+.email-number-container{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 800px;
+}
+.budget-container{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+.services-container{
+    width: 800px;
+    margin: 0;
+    padding: 20px 5px;
+}
+.services-options{
+    font-size: 12px;
+    display: flex;
+    padding: 5px;
+    width: 800px;
+}
+.services-input-label{
+    padding: 5px;
+}
+.tell-us-more-container{
+    width: 500px;
+    margin: 0;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+#tell-us-more{
+    font-size: 12px;
+    font-weight: 600;
+}
+#project-text{
+    width: 800px;
+    height: 250px;
+    margin: 10px 0px;
+    border-radius: 15px;
+    border: 1px solid rgb(232, 232, 232);
+}
+#submit{
+    font-family: 'Inter';
+    color: #fff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+    width: 100px;
+    height: 30px;
+    background: #374B92;
+    border-radius: 10px;
+    border: none;
+}
+#submit:hover{
+    box-shadow: 0px 0px 10px 0.54px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    background-color: #fff;
+    color: #374B92;
+}
+/* contact form ends here*/
+/* FAQ section starts*/
+.FAQ-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px;
+}
+.faq-p{
+    font-weight: 700;
+    font-size: 16px;
+    color: #374B92;
+    margin: 0;
+    padding: 0;
+}
+.faq-h2{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 0px;
+    width: 500px;
+}
+.faq-questions-section{
+    width: 500px;
+}
+.faq-container{
+    display: flex;
+    flex-direction: column;
+
+}
+.faq-question{
+    display: flex;
+    justify-content: space-between;
+}
+.faq-ans{
+    font-size: 12px;
+    display: none;
+}
+.plus-icon{
+    width: 15px;
+    height: 15px;
+    margin: auto 0px;
+}
+.minus-icon{
+    width: 15px;
+    height: 15px;
+    margin: auto 0px;
+    display: none;
+}
+.faq-q-p{
+    font-size: 12px;
+    font-weight: 500;
+}
+/* FAQ section ends*/
+/* Our Reviews Section Starts*/
+.our-reviews{
+    padding-top: 30px;
+}
+.our-reviews-p{
+    font-weight: 700;
+    text-align: center;
+    font-size: 16px;
+    color: #374B92;
+    margin: 0;
+    padding: 0;
+}
+.our-reviews-h2{
+    text-align: center;
+    font-size: 38px;
+    font-weight: 500;
+    margin: 0px;
+    margin: 0px 350px 0px 350px;
+}
+.client-review-container{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+.client-review-text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    margin: 30px;
+}
+.client-review-p{
+    font-size: 12px;
+}
+.client-review-name{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+}
+.client-review-job{
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+}
+.review-direction-container{
+    display: flex;
+    margin: 0px auto;
+    width: 100px;
+    padding: 0;
+}
+.review-left-arrow{
+    width: 30px;
+    margin: 5px;
+}
+.review-right-arrow{
+    width: 30px;
+    margin: 5px;
+}
+#slide-2, #slide-3{
+    display: none;
+}
+
+.reviewer-img{
+    width: 312px;
+    height: 370px;
+    border-radius: 15px;
+}
+/* Our Reviews Section Ends*/
+/* Footer Section Starts*/
+.footer{
+    display: flex;
+    padding: 30px 0px;
+}
+.footer-1,.footer-2, .footer-3, .footer-4{
+    width: 300px;
+    height: 150px;
+}
+.footer-logo{
+    width: 100px;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+}
+.footer-p{
+    font-size: 12px;
+    margin-right: 20px;
+    padding: 0;
+}
+.social-img{
+    width: 20px;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+.footer-p-heading{
+    font-size: 14px;
+    font-weight: 700;
+    text-align: start;
+    margin: 0;
+    padding: 0;
+}
+.footer-ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+.footer-li{
+    padding: 10px 0px;
+    text-align: start;
+}
+.footer-icon{
+    width: 20px;
+    height: 20px;
+    margin: auto 10px;
+}
+.footer-contact-container{
+    display: flex;
+}
+.footer-contact-p{
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+.footer-link{
+    color: black;
+}
+/* Footer Section Ends*/
+/*copyright section starts*/
+.copyright-text{
+    font-size: 8px;
+    text-align: center;
+    font-weight: 700;
+}
+/*copyright section ends*/
+
+@media screen and (min-width: 200px) and (max-width: 425px) {
+
+    /* CSS styles for mobile devices */
+    /*Overall page code starts*/
+    body{
+        margin: 0px 20px 0px 20px;
+        font-family: 'Inter', sans-serif;
+    }
+    /*overall page code ends*/
+    
+    /* header section starts */
+    .main-cta {
+        font-size: 12px;
+        width: 135px;
+        height: 36px;
+    }
+    .mobile-header{
+            display: flex;
+            justify-content: space-between;
+    }
+    .mobile-menu-icon{
+        display: block;
+    }
+    .desktop-header{
+        display: none;
+    }
+    .dropdown-content{
+        display: none;
+        left: 250px;
+        top: 70px;
+    }
+.nav-toggle{
+    display: none;
+}
+    .nav-toggle:checked ~ div {
+        display: block;
+    }
+
+    .dropdown-services-content{
+        display: none;
+    }
+
+    .sub-nav-toggle{
+        display: none;
+    }
+    .sub-nav-toggle:checked ~div {
+        display: block;
+        margin-left: 20px;
+    }
+
+    .sub-nav-toggle-label{
+        font-size: 14px;
+        padding: 12px 16px;
+    }
+
+    .our-services-text {
+        display: block;
+        padding: 0px 16px;
+    }
+    /* header section ends*/
+    /* hero section starts */
+    .get-in-touch-h1 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+
+    .get-in-touch-hero {
+        height: 260px;
+        width: auto;
+    }
+
+    .get-in-touch-p {
+        font-size: 12px;
+        font-weight: 600;
+    }
+    /* hero section ends*/
+    /* contact form starts */
+
+    .contact-form-section {
+        width: 250px;
+    }
+
+    .name-company-container, .dropdown-container {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+    
+    .email-number-container {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 250px;
+        }
+    #project-text {
+        width: 250px;
+        height: 150px;
+    }
+
+    #fname, #cname, #email, #ynumber, #budget, #hear-us {
+        width: 250px;
+    }
+
+    .services-options {
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+    }
+
+    .services-container{
+        width: 250px;
+    }
+    .client-info-box {
+        width: 250px;
+    }
+
+    .tell-us-more-container{
+        width: 250px;
+    }
+    /* contact form ends */
+
+    /* review section starts*/
+    .our-reviews-h2 {
+        text-align: center;
+        font-size: 24px;
+        font-weight: 500;
+        margin: auto;
+    }
+    
+    .our-reviews-p{
+        font-size: 12px;
+    }
+    
+    .client-review-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 5px;
+        text-align: center;
+    }
+    
+    .reviewer-img-container{
+        display: block;
+        margin: 0px auto;
+    }
+    .client-review-text-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 40px 40px 20px 40px;
+        width: auto;
+    }
+
+    .client-review-p {
+        text-align: center;
+    }
+
+    .client-review-name {
+        text-align: center;
+    }
+    
+    .client-review-job {
+        text-align: center;
+    }
+    .reviewer-img {
+        width: 200;
+        height: 200;
+        /* border-radius: 15px; */
+    }
+    /* review section ends*/
+
+    /* faq section starts*/
+    .FAQ-section {
+        display: flex;
+        flex-direction: column;
+    }
+    .faq-p {
+        font-size: 12px;
+        padding: 3px 0px;
+    }
+    .faq-h2 {
+        font-size: 26px;
+        width: auto;
+    }
+    
+    .faq-questions-section {
+        width: auto;    
+        padding: 18px 0px;
+    }
+    /* faq section ends*/
+    
+    /* footer section starts*/
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .footer-1, .footer-2, .footer-3, .footer-4 {
+        width: auto;
+        height: 175px;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .footer-p-heading {
+        text-align: center;
+    }
+    
+    .footer-li {
+        padding: 5px;
+        text-align: center;
+    }
+    
+    .footer-contact-container {
+        display: flex;
+        width: 250px;
+        margin: auto;
+    }
+    /* footer section ends*/
+}

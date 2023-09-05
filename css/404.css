@@ -1,0 +1,140 @@
+body{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    background-color: #FFF;
+    width: 55rem;
+    height: 30rem;
+    border-radius: 1.875rem;
+    box-shadow: 0px 0px 16px 6px rgba(0, 0, 0, 0.10);
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+.main-img-div{
+    width: 10rem;
+    height: 15rem;
+    flex-shrink: 0;
+    align-self:center;
+    margin-right: 5rem;
+}
+
+.main-img{
+    width: 80%;
+}
+
+h1{
+    color: #374B92;
+    font-family: Inter;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 3.5rem; /* 100% */
+    letter-spacing: 0.035rem;
+    width: 25rem;
+    margin: 0.5rem;
+}
+
+p{
+    color: #BBB;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.1rem;
+    letter-spacing: 0.01375rem;
+    width: 25rem;
+    margin: 0.5rem;
+}
+
+button{
+    border-radius: 0.625rem;
+    background: #374B92;
+    width: 10rem;
+    height: 2.5rem;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0.625rem; /* 62.5% */
+    letter-spacing: 0.01rem;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+h4{
+    color: #BBB;
+    font-family: Inter;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.1rem;
+    letter-spacing: 0.01375rem;
+    width: 25rem;
+    margin: 0.5rem;
+
+}
+
+.all-main-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.follow-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 7rem;
+}
+
+.follow-icon{
+    width: 1rem;
+    margin: 0.5rem;
+}
+
+@media screen and (min-width: 200px) and (max-width: 425px) {
+    /* CSS styles for mobile devices */
+    body{
+        display: block;
+    }
+    
+    main{
+        width: 22rem;
+        height: 72rem;
+        flex-direction: column-reverse;
+        justify-content: start;
+    }
+
+    .main-img-div{
+        width: 10rem;
+        height: 15rem;
+        margin-right: 1rem;
+        padding-top: 6rem;
+    }
+
+    .main-content{
+        padding: 96px 0px;
+    }
+
+    h1{
+        font-size: 2rem;
+        width: 20rem;
+    }
+
+    p{
+        width: 20rem;
+    }
+
+    h4{
+        width: 20rem;
+    }
+    
+}

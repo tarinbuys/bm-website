@@ -1,0 +1,881 @@
+/*Overall page code starts*/
+body{
+    margin: 0px 100px 0px 100px;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+}
+/*overall page code ends*/
+
+/* header section starts*/
+
+.mobile-header{
+    display: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-logo{
+    width: 80px; 
+    padding: 0;
+    margin-left: -10px;
+}
+.nav-links{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-size: 16px;
+}
+.nav-item{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #05121A;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    font-weight: 700;
+}
+a:active{
+    font-weight: 700;
+    text-decoration: underline;
+}
+.main-cta{
+    font-family: 'Inter';
+    color: #fff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    width: 200px;
+    height: 50px;
+    left: 1022px;
+    top: 58px;
+    background: #374B92;
+    border-radius: 15px;
+    border: none;
+}
+.main-cta:hover{
+    box-shadow: 0px 0px 10px 0.54px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    background-color: #fff;
+    color: #374B92;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 250px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+/* header section ends*/
+/* Website Design section starts*/
+.our-services{
+    margin: 50px 0px 50px 0px;
+}
+.sub-heading{
+    font-weight: 700;
+    text-align: center;
+    font-size: 16px;
+    color: #374B92;
+}
+.heading{
+    text-align: center;
+    font-size: 38px;
+    font-weight: 500;
+    margin: 0px 250px 0px 250px;
+}
+.uxui-hero-img{
+    width: 700px;
+    display: flex;
+    margin: 0px auto;
+}
+/* Website Design section Ends*/
+/* review box section starts*/
+.line{
+    width: 100%; 
+   text-align: center; 
+   border-bottom: 1px solid #A3A3A3; 
+   line-height: 0.1em;
+   margin: 30px 0 20px; 
+   font-size: 12;
+   font-weight: 700;
+}
+.line-span{
+    background:#fff; 
+    padding:0 10px;
+    color: black;
+}
+.review-box-section{
+    display: flex;
+    justify-content: space-between;
+}
+.review-box{
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 0.5px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    padding: 30px;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.review-box-p{
+    font-size: 12px;
+}
+.review-box-read-more{
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: underline;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+.open-quote{
+    width: 20px;
+}
+.closed-quote{
+    width: 20px;
+    position: relative;
+    bottom: 0px;
+    left: 180;
+}
+/* review box section ends*/
+/* what is uxui section starts*/
+.what-is-uxui-section{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px;
+}
+.what-is-uxui-img-div{
+    width: 50%;
+}
+.what-is-uxui{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    margin: auto;
+}
+.what-is-uxui-text-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+.what-is-uxui-p{
+    padding: 0;
+    margin: 0;
+    font-weight: 700;
+    font-size: 16px;
+    color: #374B92;
+}
+.what-is-uxui-h2{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+.what-is-uxui-p-main{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0px 50px 0px 0px;
+    padding: 0;
+}
+/* what is uxui section ends*/
+/* why you need it section starts */
+.why-do-I-need-it-section{
+    display: flex;
+    margin: 50px 0px;
+}
+.why-I-need-it-img{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    margin: auto;
+}
+.why-i-need-it-text-div{
+    width: 50%;
+    margin: 0px 0px 0px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.why-I-need-it-img-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+.why-I-need-it-p{
+    padding: 0;
+    margin: 0;
+    font-weight: 700;
+    font-size: 16px;
+    color: #374B92;
+}
+.why-I-need-it-h2{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+.why-I-need-it-p-main{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0px 50px 0px 0px;
+    padding: 0;
+}
+/* why you need it section ends*/
+
+/*what makes us different section starts*/
+.what-makes-us-different{
+    display: flex;
+}
+.what-makes-us-different-img-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+.what-makes-us-different-img{
+    width: 300px;
+    display: flex;
+    margin: auto;
+}
+.what-makes-us-different-text-div{
+    width: 50%;
+    margin: 0px 0px 0px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.what-makes-us-different-p{
+    padding: 0;
+    margin: 0;
+    font-weight: 700;
+    font-size: 16px;
+    color: #374B92;
+}
+
+.what-makes-us-different-h2{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+}
+.what-makes-us-different-p-main{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0px 50px 0px 0px;
+    padding: 20px 0;
+}
+/* what makes us different section ends*/
+
+/* whats included section starts */
+.whats-included-section{
+    margin: 40px auto;
+}
+.whats-included-p{
+    padding: 0;
+    margin: 0;
+    font-weight: 700;
+    font-size: 16px;
+    color: #374B92;
+    text-align: center;
+}
+
+.whats-included-h2{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 0px 350px;
+    padding: 0;
+    text-align: center;
+}
+.whats-included-box{
+    border: 1px solid #05121A;
+    margin: 30px auto;
+    width: 400px;
+}
+.whats-included-heading-box{
+    border-bottom: 1px solid #05121A;
+}
+
+.whats-included-heading{
+    padding: 10px;
+    margin: 0;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+}
+.whats-included-item{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 15px;
+
+}
+
+.whats-included-icon{
+    width: 20px;
+    height: 20px;
+    padding-right: 10px;
+}
+.whats-included-p-item{
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
+.cta-whats-included{
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter';
+    color: #fff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 45px;
+    width: 200px;
+    height: 50px;
+    left: 1022px;
+    top: 58px;
+    background: #374B92;
+    border-radius: 15px;
+    border: none;
+    margin: auto;
+}
+
+.cta-whats-included:hover{
+    box-shadow: 0px 0px 10px 0.54px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    background-color: #fff;
+    color: #374B92;
+}
+
+/* whats included section ends*/
+/* FAQ section starts*/
+.FAQ-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px;
+}
+.faq-p{
+    font-weight: 700;
+    font-size: 16px;
+    color: #374B92;
+    margin: 0;
+    padding: 0;
+}
+.faq-h2{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 0px;
+    width: 500px;
+}
+.faq-questions-section{
+    width: 500px;
+}
+.faq-container{
+    display: flex;
+    flex-direction: column;
+
+}
+.faq-question{
+    display: flex;
+    justify-content: space-between;
+}
+.faq-ans{
+    font-size: 12px;
+    display: none;
+}
+.plus-icon{
+    width: 15px;
+    height: 15px;
+    margin: auto 0px;
+}
+.minus-icon{
+    width: 15px;
+    height: 15px;
+    margin: auto 0px;
+    display: none;
+}
+.faq-q-p{
+    font-size: 12px;
+    font-weight: 500;
+}
+/* FAQ section ends*/
+/* Get started section starts*/
+.get-started-section{
+    margin: 30px 0px;
+}
+.get-started-container{
+    background-color: #05121A;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+    padding: 100px;
+    border-radius: 15px;
+}
+.get-started-p{
+    font-weight: 700;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    margin: 0;
+    padding: 5px 0;
+}
+.get-started-h2{
+    text-align: center;
+    font-size: 38px;
+    font-weight: 500;
+    margin: 0px;
+    padding: 5px 0px;
+}
+.get-started-cta{
+    font-family: 'Inter';
+    color: #fff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    width: 200px;
+    height: 50px;
+    background: #374B92;
+    border-radius: 15px;
+    border: none;
+    margin: auto;
+}
+
+.get-started-cta:hover{
+    font-family: 'Inter';
+    color: #374B92;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    width: 200px;
+    height: 50px;
+    background: #fff;
+    border-radius: 15px;
+    border: none;
+    margin: auto;
+}
+.lets-chat{
+    text-align: center;
+    font-size: 10px;
+    padding: 0;
+    margin: 10px;
+}
+.up-arrow-three{
+    width: 70px;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: absolute;
+  top: 70px; /* Adjust the top position based on your desired placement */
+  left: 550px;
+}
+.arrow-container {
+    position: relative;
+    height: 60px;
+}
+/* Get started section ends*/
+/* Footer Section Starts*/
+.footer{
+    display: flex;
+    padding: 30px 0px;
+}
+.footer-1,.footer-2, .footer-3, .footer-4{
+    width: 300px;
+    height: 150px;
+}
+.footer-logo{
+    width: 100px;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+}
+.footer-p{
+    font-size: 12px;
+    margin-right: 20px;
+    padding: 0;
+}
+.social-img{
+    width: 20px;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+.footer-p-heading{
+    font-size: 14px;
+    font-weight: 700;
+    text-align: start;
+    margin: 0;
+    padding: 0;
+}
+.footer-ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+.footer-li{
+    padding: 10px 0px;
+    text-align: start;
+}
+.footer-icon{
+    width: 20px;
+    height: 20px;
+    margin: auto 10px;
+}
+.footer-contact-container{
+    display: flex;
+}
+.footer-contact-p{
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+.footer-link{
+    color: black;
+}
+/* Footer Section Ends*/
+/*copyright section starts*/
+.copyright-text{
+    font-size: 8px;
+    text-align: center;
+    font-weight: 700;
+}
+/*copyright section ends*/
+
+@media screen and (min-width: 200px) and (max-width: 425px) {
+    /* CSS styles for mobile devices */
+    /*Overall page code starts*/
+    body {
+        margin: 0px 20px 0px 20px;
+        width: fit-content;
+        font-family: 'Inter', sans-serif;
+    }
+    /*overall page code ends*/
+    
+    /* header section starts */
+    .main-cta {
+        font-size: 12px;
+        width: 135px;
+        height: 36px;
+    }
+    .mobile-header{
+            display: flex;
+            justify-content: space-between;
+    }
+    .mobile-menu-icon{
+        display: block;
+    }
+    .desktop-header{
+        display: none;
+    }
+    .dropdown-content{
+        display: none;
+        left: 250px;
+        top: 70px;
+    }
+.nav-toggle{
+    display: none;
+}
+    .nav-toggle:checked ~ div {
+        display: block;
+    }
+
+    .dropdown-services-content{
+        display: none;
+    }
+
+    .sub-nav-toggle{
+        display: none;
+    }
+    .sub-nav-toggle:checked ~div {
+        display: block;
+        margin-left: 20px;
+    }
+
+    .sub-nav-toggle-label{
+        font-size: 14px;
+        padding: 12px 16px;
+    }
+
+    .our-services-text {
+        display: block;
+        padding: 0px 16px;
+    }
+    /* header section ends*/
+
+    /* hero section starts*/
+    .sub-heading {
+        font-size: 12px;
+    }
+
+    .heading {
+        text-align: center;
+        font-size: 30px;
+        margin: 0px 50px;
+    }
+
+    .uxui-hero-img {
+        width: 500px;
+    }
+
+    .hero-section {
+        margin: 150px 0px;
+    }
+    /* hero section ends*/
+
+    /* review section starts*/
+
+.review-box-section {
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+
+.review-box{
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 0.5px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    margin: 21px;
+    display: flex;
+    flex-direction: column;
+}
+
+.closed-quote {
+    left: 270px;
+}
+/* review section ends*/
+
+/* what is uxui design section starts*/
+.what-is-uxui-section {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 50px 0px;
+}
+
+.what-is-uxui-h2 {
+    font-size: 22px;
+    text-align: center;
+    padding: 8px 0px;
+}
+
+.what-is-uxui-p-main {
+    margin: 0px;
+    text-align: center;
+}
+
+.what-is-uxui-text-div {
+    width: auto;
+}
+
+.what-is-uxui {
+    width: 250px;
+    height: 250px;
+}
+
+.what-is-uxui-p {
+    text-align: center;
+}
+
+.what-is-uxui-img-div {
+    width: auto;
+}
+/* what is uxui design section ends*/
+
+/* why do i need it section starts*/
+.what-makes-us-different {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+
+.what-makes-us-different-img-div {
+    display: flex;
+    width: auto;
+}
+
+.why-do-I-need-it-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.why-i-need-it-text-div {
+    width: auto;
+    margin: 0px;
+}
+
+.why-I-need-it-img {
+    width: 250;
+    height: 250;
+    padding-left: 40px;
+}
+
+.why-I-need-it-p {
+    font-size: 12px;
+    text-align: center;
+}
+
+.why-I-need-it-h2 {
+    font-size: 22px;
+    text-align: center;
+    padding: 8px 0px;
+}
+
+.why-I-need-it-p-main {
+    text-align: center;
+}
+
+.why-I-need-it-img-div {
+    width: auto;
+}
+/* why do i need it section ends*/
+
+/* what makes us different starts */
+.what-makes-us-different-text-div {
+    width: fit-content;
+    margin: auto;
+}
+
+.what-makes-us-different-p {
+    font-size: 12px;
+    text-align: center;
+}
+
+.what-makes-us-different-h2 {
+    font-size: 22px;
+    text-align: center;
+    padding: 8px 0px;
+}
+
+.what-makes-us-different-img {
+    width: 250px;
+}
+
+.what-makes-us-different-p-main {
+    text-align: center;
+}
+/* what makes us different ends*/
+
+/* whats included starts*/
+.whats-included-box {
+    width: 380px;
+}
+
+.whats-included-h2 {
+    font-size: 22px;
+    margin: 0px;
+    padding: 8px 0px;
+}
+
+.whats-included-p {
+    font-size: 12px;
+}
+
+.whats-included-p-item {
+    font-weight: 400;
+}
+/* whats included ends*/
+
+/* faq section starts*/
+.FAQ-section {
+    width: 92%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.faq-p {
+    font-size: 12px;
+    padding: 3px 0px;
+}
+.faq-h2 {
+    font-size: 22px;
+    padding: 8px 0px;
+}
+
+.faq-questions-section {
+    width: auto;    
+    padding: 18px 0px;
+}
+
+
+/* faq section ends*/
+
+/* get started section starts*/
+
+.get-started-container {
+    padding: 50px;
+}
+.get-started-p{
+    font-size: 12px;
+}
+.get-started-h2{
+    font-size: 20px;
+}
+
+.get-started-cta {
+    font-size: 15px;
+    width: 150px;
+    height: 40px;
+}
+/* get started section ends*/
+
+/* footer section starts*/
+.footer {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.footer-1, .footer-2, .footer-3, .footer-4 {
+    height: 175px;
+    text-align: center;
+    margin: auto;
+}
+
+.footer-p-heading {
+    text-align: center;
+}
+
+.footer-li {
+    padding: 5px;
+    text-align: center;
+}
+
+.footer-contact-container {
+    display: flex;
+    width: 250px;
+    margin: auto;
+}
+/* footer section ends*/
+}
