@@ -1,0 +1,373 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Discuss A Web Design Project</title>
+    <link rel="icon" type="image/x-icon" href="../homepage-images/Icon-Based Logo.png">
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '3644066072340766');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=3644066072340766&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
+</head>
+<!-- Hotjar Tracking Code for https://buysmanagement.co.za -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:3400250,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LFC8EDC2N0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LFC8EDC2N0');
+</script>
+<body>
+    <header class="desktop-header">
+        <a href="https://buysmanagement.co.za"><img class="main-logo" src="../images/Icon-Based Logo.png" alt="Buys Management Logo"></a> 
+        <nav class="menu">
+            <ul class="nav-links">
+                <div class="dropdown">
+                    <li class="nav-item">Our Services</li>
+                    <div class="dropdown-content">
+                        <a href="webdesign"><li>Website Design</li></a>
+                        <a href="webdev"><li>Website Development</li></a>
+                        <a href="webmaintenance"><li>Website Maintenance</li></a>
+                    </div>
+                </div>
+                <a href="case-studies"><li class="nav-item">Case Studies</li></a>
+                <a href="blog"><li class="nav-item">Blog</li></a>
+            </ul>
+        </nav>
+        <a href="contact"><button class="main-cta">Discuss A Project</button></a>
+
+    </header>
+
+   <header class="mobile-header">
+        <a href="https://buysmanagement.co.za"><img class="main-logo" src="../images/Icon-Based Logo.png" alt="Buys Management Logo"></a>
+        <a href="contact"><button class="main-cta">Discuss A Project</button></a>
+        <nav class="menu">
+          <ul class="nav-links">
+              <input type="checkbox" id="nav-toggle" class="nav-toggle">
+              <div class="dropdown-content">
+                <input type="checkbox" id="sub-nav-toggle" class="sub-nav-toggle">
+                <label for="sub-nav-toggle" class="sub-nav-toggle-label"> 
+                    <span class="our-services-text">Our Services</span>
+                  </label>
+                    <div class="dropdown-services-content">
+                        <a href="webdesign"><li>Website Design</li></a>
+                        <a href="webdev"><li>Website Development</li></a>
+                        <a href="webmaintenance"><li>Website Maintenance</li></a>
+                    </div>
+                <a href="case-studies"><li>Case Studies</li></a>
+                <a href="blog"><li>Blog</li></a>
+              </div>
+              <label for="nav-toggle" class="nav-toggle-label"> 
+                <span>              <img class="mobile-menu-icon" src="../images/menu.svg" alt="mobile menu">
+                </span>
+              </label>
+          </ul>
+        </nav>
+      </header>
+
+    <main>
+        <section class="get-in-touch-hero">
+            <p class="get-in-touch-p">Get In Touch</p>
+            <h1 class="get-in-touch-h1">Let's Build An Incredible Website For Your Business Together</h1>
+        </section>
+        <section class="contact-form-section">
+            <form id="contact-form" class="contact-form" action="submit_form.php" method="POST">
+                <div class="name-company-container">
+                    <div class="client-info-box">
+                        <label id="fname-label" for="fname">Your Name?*</label>
+                        <input type="text" id="fname" name="fname" placeholder="What is your full name?" required><br class="br">
+                    </div>
+                    <div class="client-info-box">
+                        <label id="cname-label" for="cname">Company Name?*</label>
+                        <input type="text" id="cname" name="cname" placeholder="What is the name of your company?" required><br>
+                    </div>
+                </div>
+                <div class="email-number-container">
+                    <div class="client-info-box">
+                        <label id="email-label" for="email">Your Email?*</label>
+                        <input type="email" id="email" name="email" placeholder="name@yourcompany.com" required><br>
+                    </div>
+                    <div class="client-info-box">
+                        <label id="number-label" for="ynumber">Your Number*</label>
+                        <input type="text" id="ynumber" name="ynumber" placeholder="What is your WhatsApp number?" required><br>
+                    </div>
+                </div>
+            
+                <div class="dropdown-container">
+                    <div class="budget-container">
+                        <label id="budget-label" for="budget">Your Budget?*</label>
+                        <select id="budget" name="budget" required>
+                            <option value="0-5000">R0-R5 000 ($0-$300)</option>
+                            <option value="5000-10000">R5 000-R10 000 ($300-$580)</option>
+                            <option value="10000-15000">R10 000-R15 000 ($580-$850)</option>
+                            <option value="15000-20000">R15 000-R20 000 ($580-$1150)</option>
+                        </select>
+                    </div>
+            
+                    <div class="budget-container">
+                        <label class="hear-us-label" for="hear-us">Where Did You Hear About Us?*</label>
+                        <select id="hear-us" name="hear-us" required>
+                            <option value="instagram">Instagram</option>
+                            <option value="facebook">Facebook</option>
+                            <option value="tiktok">TikTok</option>
+                            <option value="google">Google</option>
+                            <option value="google">Other</option>
+                        </select>
+                    </div>
+                </div>
+            
+                <div class="services-container">
+                    <label id="services-label" for="services">What services do you need?*</label>
+                    <div class="services-options">
+                        <div class="service-check">
+                            <input type="checkbox" id="webdesign" name="services[]" value="webdesign">
+                            <label class="services-input-label" for="webdesign"> Website Design<label>
+                        </div><br>
+                        <div class="service-check">
+                            <input type="checkbox" id="webdev" name="services[]" value="webdev">
+                            <label class="services-input-label" for="webdev"> Website Development<label>
+                        </div><br>
+                        <div class="service-check">
+                            <input type="checkbox" id="webmain" name="services[]" value="webmain">
+                            <label class="services-input-label" for="webmain"> Website Maintenance</label>
+                        </div>
+                    </div>
+                </div> 
+            
+                <div class="tell-us-more-container">
+                    <label id="tell-us-more" for="project-text">Tell us about your project?*</label>
+                    <textarea id="project-text" name="project-text" required></textarea>
+                    <input id="submit" type="submit" value="Submit">
+                </div>
+                <div id="confirmation-message"></div>
+            </form>            
+        </section>
+
+        <section class="our-reviews">
+            <p class="our-reviews-p">Our Reviews</p>
+            <h2 class="our-reviews-h2">We Service Businesses Of All Sizes</h2>
+                <div class="client-review-container" id="slide-1">
+                    <div class="reviewer-img-container">
+                        <img class="reviewer-img" src="../images/jody-image.png" alt="Client Image">
+                    </div>
+                    <div class="client-review-text-container">
+                        <div class="star-icons-container">
+                            <img src="../images/star-icon.png" alt="star-icon">
+                            <img src="../images/star-icon.png" alt="star-icon">
+                            <img src="../images/star-icon.png" alt="star-icon">
+                            <img src="../images/star-icon.png" alt="star-icon">
+                            <img src="../images/star-icon.png" alt="star-icon">
+                        </div>
+                        <div>
+                            <p class="client-review-p">The service they provide is phenomenal! We created a new look and feel for my website in just two days! I would highly recommend their service to anyone.</p>
+                            <p class="client-review-name">Jody Alexander</p>
+                            <p class="client-review-job">Content Creator</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="client-review-container" id="slide-2">
+                    <div class="reviewer-img-container">
+                        <img class="reviewer-img" src="../images/boitumelo dale.jpg" alt="Client Image">
+                    </div>
+                    <div class="client-review-text-container">
+                        <div class="star-icons-container">
+                            <img src="../images/star-icon.png" alt="star-icon">
+                            <img src="../images/star-icon.png" alt="star-icon">
+                            <img src="../images/star-icon.png" alt="star-icon">
+                            <img src="../images/star-icon.png" alt="star-icon">
+                            <img src="../images/star-icon.png" alt="star-icon">
+                        </div>
+                        <div>
+                            <p class="client-review-p">The owner knows how to take you through the process and will give you what you asked for. I'm happy with my website and have been told it looks good</p>
+                            <p class="client-review-name">Boitumelo Diale</p>
+                            <p class="client-review-job">Business Owner</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="client-review-container" id="slide-3">
+                    <div class="reviewer-img-container">
+                        <img class="reviewer-img" src="../images/Kgotso Gila.webp" alt="Client Image">
+                    </div>
+                    <div class="client-review-text-container">
+                        <div class="star-icons-container">
+                            <img src="../images/star-icon.png" alt="star-icon">
+                            <img src="../images/star-icon.png" alt="star-icon">
+                            <img src="../images/star-icon.png" alt="star-icon">
+                            <img src="../images/star-icon.png" alt="star-icon">
+                            <img src="../images/star-icon.png" alt="star-icon">
+                        </div>
+                        <div>
+                            <p class="client-review-p">I've thoroughly enjoyed their services. The precision in delivery is impeccable. Definitely the best!</p>
+                            <p class="client-review-name">Kgotso Gila</p>
+                            <p class="client-review-job">Content Creator</p>
+                        </div>
+                    </div>
+                </div>
+
+            <div class="review-direction-container">
+                <div>
+                    <img class="review-left-arrow" src="../images/left.png" alt="arrow-right">
+                </div>
+                <div>
+                    <img class="review-right-arrow" src="../images/right.png" alt="arrow-left">
+                </div>
+            </div>
+        </section>
+        <section class="FAQ-section">
+            <div class="faq-heading-section">
+                <p class="faq-p">Your Questions</p>
+                <h2 class="faq-h2">Frequently Asked Questions</h2>
+            </div>
+            <div class="faq-questions-section">
+                <div>
+                    <div class="faq-container">
+                        <div class="faq-question">
+                            <p class="faq-q-p">How much do you charge?</p>
+                            <img class="plus-icon" src="../images/plus-circle.png" alt="circle-icon">
+                            <img class="minus-icon" src="../images/minus-circle.png" alt="circle-icon">
+    
+                        </div>
+                        <p class="faq-ans">The total cost of each project can differ greatly because each client has different needs. Our pricing structure is based on a variety of factors, including project scope, timeline, and complexity. We provide detailed project proposals and estimates to all clients before beginning work to ensure that you sign off on a budget that you are happy with.</p>
+                    </div>
+                    <hr>
+                    <div class="faq-container">
+                        <div class="faq-question">
+                            <p class="faq-q-p">How do I get started working with you?</p>
+                            <img class="plus-icon" src="../images/plus-circle.png" alt="circle-icon">
+                            <img class="minus-icon" src="../images/minus-circle.png" alt="circle-icon">
+    
+                        </div>
+                        <p class="faq-ans">To get started, simply fill out our contact form and provide us with the details of your project. We'll get in touch with you to discuss the next steps.</p>
+                    </div>
+                    <hr>
+                    <div class="faq-container">
+                        <div class="faq-question">
+                            <p class="faq-q-p">What types of websites can you create?</p>
+                            <img class="plus-icon" src="../images/plus-circle.png" alt="circle-icon">
+                            <img class="minus-icon" src="../images/minus-circle.png" alt="circle-icon">
+    
+                        </div>
+                        <p class="faq-ans">We have expertise in developing various types of websites, including e-commerce sites, portfolio websites, blogs, corporate websites, and more. We can use low-code tools such as Divi and Elementor for your convience, or we can code out your entire website if your budget and project timeline allows it.</p>
+                    </div>
+                    <hr>
+                    <div class="faq-container">
+                        <div class="faq-question">
+                            <p class="faq-q-p">What do you need from me to start my project?</p>
+                            <img class="plus-icon" src="../images/plus-circle.png" alt="circle-icon">
+                            <img class="minus-icon" src="../images/minus-circle.png" alt="circle-icon">
+    
+                        </div>
+                        <p class="faq-ans">To start your project, we will need detailed requirements or specifications, any relevant content or branding materials, and access to any existing hosting or domain accounts if applicable. Do not worry about what exactly you need to provide for us, we will send you a checklist and help you as much as we can.</p>
+                    </div>
+                    <hr>
+                    <div class="faq-container">
+                        <div class="faq-question">
+                            <p class="faq-q-p">How do I get a quote? How long will it take?</p>
+                            <img class="plus-icon" src="../images/plus-circle.png" alt="circle-icon">
+                            <img class="minus-icon" src="../images/minus-circle.png" alt="circle-icon">
+    
+                        </div>
+                        <p class="faq-ans">To get a quote, please fill out our contact form or reach out to us via email and you will get a response within 24 hours, excluding weekends and public holidays.</p>
+                    </div>
+                    <hr>
+                    <div class="faq-container">
+                        <div class="faq-question">
+                            <p class="faq-q-p">Why choose Buys Management?</p>
+                            <img class="plus-icon" src="../images/plus-circle.png" alt="circle-icon">
+                            <img class="minus-icon" src="../images/minus-circle.png" alt="circle-icon">
+    
+                        </div>
+                        <p class="faq-ans">At Buys Management, we are dedicated to delivering high-quality websites tailored to meet your specific needs. Our team of experienced professionals ensures attention to detail, timely delivery, and excellent customer support throughout the design and development process.</p>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footer">
+                <div class="footer-1">
+                    <img class="footer-logo" src="../images/logo.png" alt="Buys Management Logo">
+                    <p class="footer-p">Buys Management is a UX/UI Design and development powerhouse, based in South Africa.</p>
+                    <div>
+                        <a class="footer-link" href="https://tiktok.com/@buysmanagement"><img class="social-img" src="../images/tiktok.png" alt="TikTok"></a>
+                        <a class="footer-link" href="https://www.linkedin.com/company/buysmanagement/"><img class="social-img" src="../images/linkedin.png" alt="LinkedIn"></a>
+                        <a class="footer-link" href="https://facebook.com/buysmanagement"><img class="social-img" src="../images/facebook.png" alt="Facebook"></a>
+                        <a class="footer-link" href="https://instagram.com/buysmanagement"><img class="social-img" src="../images/instagram.png" alt="Instagram"></a>
+                    </div>
+                </div>
+                <div class="footer-2">
+                    <p class="footer-p-heading">Pages</p>
+                    <ul class="footer-ul">
+                        <a class="footer-link" href="https://buysmanagement.co.za"><li class="footer-li">Home</li></a>
+                        <a class="footer-link" href="case-studies"><li class="footer-li">Case Studies</li></a>
+                        <a class="footer-link" href="blog"><li class="footer-li">Blog</li></a>
+                        <a class="footer-link" href="contact"><li class="footer-li">Contact</li></a>
+                    </ul>
+                </div>
+                <div class="footer-3">
+                    <p class="footer-p-heading">Services</p>
+                    <ul class="footer-ul">
+                        <a class="footer-link" href="webdesign"><li class="footer-li">Website Design</li></a>
+                        <a class="footer-link" href="webdev"><li class="footer-li">Website Development</li></a>
+                        <a class="footer-link" href="webmaintenance"><li class="footer-li">Website Maintenance</li></a>
+                    </ul>
+                </div>
+                <div class="footer-4">
+                    <p class="footer-p-heading">Contact Us</p>
+                    <div>
+                        <div class="footer-contact-container">
+                            <img class="footer-icon" src="../images/mail.png" alt="Email Buys Management">
+                            <a class="footer-link" href="mailto:info@buysmanagement.co.za"><p class="footer-contact-p">info@buysmanagement.co.za</p></a>
+                        </div>
+                        <div class="footer-contact-container">
+                            <img class="footer-icon" src="../images/map-pin.png" alt="Buys Managements Location">
+                            <a class="footer-link"  href="https://www.google.com/search?q=buys+management&rlz=1CAIWTJ_enZA1037&oq=buys+management&aqs=chrome.0.69i59j0i512j35i39j46i175i199i512i664j46i512j69i65j69i60l2.2256j0j7&sourceid=chrome&ie=UTF-8"><p class="footer-contact-p">South Africa</p></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="copyright">
+                <p class="copyright-text">Buys Management 2023. All rights reserved.</p>
+            </div>
+        </footer>
+    </main>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="../js/script.js"></script>
+</html>
