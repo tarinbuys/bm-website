@@ -1,0 +1,346 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Tech Blog| Best Practises For Responsive Web Design</title>
+    <link rel="icon" type="image/x-icon" href="/images/Icon-Based Logo.png">
+    <link rel="stylesheet" href="/blogs/css/best-practises-for-responsive-web-design.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '3644066072340766');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=3644066072340766&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
+
+</head>
+<!-- Hotjar Tracking Code for https://buysmanagement.co.za -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:3400250,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LFC8EDC2N0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LFC8EDC2N0');
+</script>
+<body>
+    <header class="desktop-header">
+        <a href="https://buysmanagement.co.za"><img class="main-logo" src="/images/Icon-Based Logo.png" alt="Buys Management Logo"></a> 
+        <nav class="menu">
+            <ul class="nav-links">
+                <div class="dropdown">
+                    <a href="#"> <li class="nav-item">Our Services</li></a>
+                    <div class="dropdown-content">
+                        <a href="/webdesign"><li>Website Design</li></a>
+                        <a href="/webdev"><li>Website Development</li></a>
+                        <a href="/webmaintenance"><li>Website Maintenance</li></a>
+                    </div>
+                </div>
+                <a href="/case-studies"><li class="nav-item">Case Studies</li></a>
+                <a href="/blog"><li class="nav-item">Blog</li></a>
+            </ul>
+        </nav>
+        <a href="/contact"><button class="main-cta">Discuss A Project</button></a>
+
+    </header>
+
+    <header class="mobile-header">
+        <a href="https://buysmanagement.co.za"><img class="main-logo" src="/images/Icon-Based Logo.png" alt="Buys Management Logo"></a>
+        <a href="/contact"><button class="main-cta">Discuss A Project</button></a>
+        <nav class="menu">
+          <ul class="nav-links">
+              <input type="checkbox" id="nav-toggle" class="nav-toggle">
+              <div class="dropdown-content">
+                <input type="checkbox" id="sub-nav-toggle" class="sub-nav-toggle">
+                <label for="sub-nav-toggle" class="sub-nav-toggle-label"> 
+                    <span class="our-services-text">Our Services</span>
+                  </label>
+                    <div class="dropdown-services-content">
+                        <a href="/webdesign"><li>Website Design</li></a>
+                        <a href="/webdev"><li>Website Development</li></a>
+                        <a href="/webmaintenance"><li>Website Maintenance</li></a>
+                    </div>
+                <a href="/case-studies"><li>Case Studies</li></a>
+                <a href="/blog"><li>Blog</li></a>
+              </div>
+              <label for="nav-toggle" class="nav-toggle-label"> 
+                <span>              <img class="mobile-menu-icon" src="/images/menu.svg" alt="mobile menu">
+                </span>
+              </label>
+          </ul>
+        </nav>
+      </header>
+
+    <section class="back-to-blog-section">
+        <a href="/blog" ><img class="back-arrow-img" src="/images/left.png" alt="back-arrow-img"></a>
+        <p class="back-arrow-text">Back to blogs</p>
+    </section>
+
+    <section class="blog-feature-img">
+        <img class="feature-img" src="/images/best practices for responsive web design big.png" alt="blog-feature-img">
+    </section>
+
+    <section class="blog-logo-section">
+        <div class="blog-logo-div">
+            <div class="logo-img-div">
+                <img class="under-blog-logo" src="/images/Icon-Based Logo.png" alt="Buys Management Logo">
+            </div>
+            <div class="branding-div">
+                <h3 class="branding-h3">Buys Management</h3>
+                <p class="branding-p">Design & Development Agency</p>
+            </div>
+        </div>
+
+        <div class="blog-date-section">
+            <img class="calander-icon" src="/images/calendar.png" alt="calander-icon">
+            <p class="blog-date">Jan 15, 2023</p>
+          </div>
+    </section>
+
+    <section class="blog">
+        <div class="before-blog">
+            <h4 class="blog-categories">Website Development</h4>
+            <h1 class="blog-title">Best Practises For Responsive Web Design</h1>
+        </div>
+        <div class="blog-content">
+            
+            <p>In the mobile-driven era, responsive web design has become a crucial element in creating user-friendly and accessible websites. Responsive web design ensures that websites adapt seamlessly to different devices and screen sizes, providing an optimal viewing experience. In this blog post, we will explore the best practices for responsive web design, discuss key considerations, and highlight effective strategies to deliver exceptional user experiences on every device.</p>
+            <h3>Why Responsive Web Design Matters</h3>
+            <p>Responsive web design offers several significant advantages for both users and businesses:</p>
+            <p><strong>1. Improved User Experience:</strong> Responsive websites automatically adjust their layout, content, and functionality to fit various screen sizes, ensuring a consistent and user-friendly experience for visitors, regardless of the device they use.</p>
+            <p><strong>2. Increased Mobile Traffic:</strong> With the widespread use of smartphones and tablets, mobile traffic has skyrocketed. Responsive design ensures that your website is accessible to the growing number of mobile users, maximizing your reach and engagement.</p>
+            <p><strong>3. SEO Benefits:</strong> Responsive design contributes to improved search engine rankings. Google favors mobile-friendly websites, and responsive design is a recommended approach for delivering a positive mobile experience, which can positively impact your search visibility.</p>
+            <p><strong>4. Cost and Time Efficiency:</strong> Building a responsive website eliminates the need for separate mobile and desktop versions, reducing development time, maintenance costs, and potential content inconsistencies across different versions of the site.</p>
+            <h3>Best Practices for Responsive Web Design</h3>
+            <p>To ensure a seamless and effective responsive web design, follow these best practices:</p>
+            <p><strong>1. Mobile-First Approach:</strong> Start designing for mobile devices first, as they have more constraints in terms of screen size and bandwidth. This approach helps prioritize essential content and functionality, ensuring a streamlined experience across all devices.</p>
+            <p><strong>2. Responsive Grid System:</strong> Utilize a responsive grid system, such as CSS frameworks like Bootstrap or CSS Grid, to create flexible and scalable layouts. Grid systems help maintain consistency and alignment across different screen sizes, making it easier to organize and rearrange content.</p>
+            <p><strong>3. Fluid Images:</strong> Ensure that images scale proportionally and adapt to different screen sizes. Use CSS properties like max-width: 100% to prevent images from overflowing or becoming distorted on smaller screens.</p>
+            <p><strong>4. Breakpoints:</strong> Define breakpoints in your CSS to apply specific styles for different screen sizes. This allows you to adjust the layout, font sizes, or hide/show certain elements based on the screen width, optimizing the experience for each device.</p>
+            <p><strong>5. Flexible Typography:</strong> Implement responsive typography by using relative units (such as em or rem) for font sizes. This enables text to scale appropriately, maintaining readability across various devices without the need for constant manual adjustment.</p>
+            <p><strong>6. Touch-Friendly Interactions:</strong> Design with touch interactions in mind. Ensure that buttons and interactive elements have sufficient size and spacing to accommodate touch gestures accurately. Use CSS properties like :hover or :active to provide visual feedback for touch interactions.</p>
+            <h3>Effective Strategies for Responsive Web Design</h3>
+            <p>Consider these strategies to enhance your responsive web design:</p>
+            <p><strong>1. Content Prioritization:</strong> Identify and prioritize key content and functionality that should be accessible on smaller screens. Hide non-essential elements or reposition them for a more streamlined experience on mobile devices.</p>
+            <p><strong>2. Performance Optimization:</strong> Optimize your website's performance by minimizing file sizes, leveraging browser caching, and utilizing techniques such as lazy loading for images and asynchronous loading for JavaScript. Mobile users often have slower connections, and fast loading times are critical for a positive user experience.</p>
+            <p><strong>3. User Testing:</strong> Regularly test your website on various devices and screen sizes to ensure a consistent and smooth experience across platforms. Solicit feedback from users and address any usability issues or layout inconsistencies promptly.</p>
+            <p><strong>4. Continuous Iteration:</strong> Responsive web design is an ongoing process. Monitor user behavior, analyze data, and make iterative improvements based on user feedback and changing technology trends.</p>
+            <h3>Conclusion</h3>
+            <p>Responsive web design is essential for delivering seamless user experiences across devices, ensuring accessibility, and maximizing engagement. By following best practices such as a mobile-first approach, employing responsive grids and fluid typography, and optimizing performance, you can create websites that adapt flawlessly to different screen sizes and provide a consistent and enjoyable experience for users. Embrace the power of responsive web design to stay ahead in the evolving digital landscape and meet the needs of today's mobile-centric audience.</p>
+        </div>
+
+    </section>
+
+                        <section class="get-started-section">
+                            <div class="get-started-container">
+                                <p class="get-started-p">Get Started</p>
+                                <h2 class="get-started-h2">Let’s Talk About Your Next Project</h2>
+                                <div>
+                                    <a href="/contact"><button class="get-started-cta">Discuss A Project</button></a>
+                            
+                                </div>
+                            </div>
+                            <div>
+                                <p class="lets-chat">Let’s have a commitment free chat!</p>
+                            </div>
+                        </section>
+                </main>
+            <footer>
+                <div class="footer">
+                    <div class="footer-1">
+                        <img class="footer-logo" src="/images/logo.png" alt="Buys Management Logo">
+                        <p class="footer-p">Buys Management is a UX/UI Design and development powerhouse, based in South Africa.                        </p>
+                        <div>
+                            <a class="footer-link" href="https://tiktok.com/@buysmanagement"><img class="social-img" src="/images/tiktok.png" alt="TikTok"></a>
+                            <a class="footer-link" href="https://www.linkedin.com/company/buysmanagement/"><img class="social-img" src="/images/linkedin.png" alt="LinkedIn"></a>
+                            <a class="footer-link" href="https://facebook.com/buysmanagement"><img class="social-img" src="/images/facebook.png" alt="Facebook"></a>
+                            <a class="footer-link" href="https://instagram.com/buysmanagement"><img class="social-img" src="/images/instagram.png" alt="Instagram"></a>
+                        </div>
+                    </div>
+                    <div class="footer-2">
+                        <p class="footer-p-heading">Pages</p>
+                        <ul class="footer-ul">
+                            <a class="footer-link" href="https://buysmanagement.co.za"><li class="footer-li">Home</li></a>
+                            <a class="footer-link" href="/case-studies"><li class="footer-li">Case Studies</li></a>
+                            <a class="footer-link" href="/blog"><li class="footer-li">Blog</li></a>
+                            <a class="footer-link" href="/contact"><li class="footer-li">Contact</li></a>
+                        </ul>
+                    </div>
+                    <div class="footer-3">
+                        <p class="footer-p-heading">Services</p>
+                        <ul class="footer-ul">
+                            <a class="footer-link" href="/webdesign"><li class="footer-li">Website Design</li></a>
+                            <a class="footer-link" href="/webdev"><li class="footer-li">Website Development</li></a>
+                            <a class="footer-link" href="/webmaintenance"><li class="footer-li">Website Maintenance</li></a>
+                        </ul>
+                    </div>
+                    <div class="footer-4">
+                        <p class="footer-p-heading">Contact Us</p>
+                        <div>
+                            <div class="footer-contact-container">
+                                <img class="footer-icon" src="/images/mail.png" alt="Email Buys Management">
+                                <a class="footer-link" href="mailto:info@buysmanagement.co.za"><p class="footer-contact-p">info@buysmanagement.co.za</p></a>
+                            </div>
+                            <div class="footer-contact-container">
+                                <img class="footer-icon" src="/images/map-pin.png" alt="Buys Managements Location">
+                                <a class="footer-link"  href="https://www.google.com/search?q=buys+management&rlz=1CAIWTJ_enZA1037&oq=buys+management&aqs=chrome.0.69i59j0i512j35i39j46i175i199i512i664j46i512j69i65j69i60l2.2256j0j7&sourceid=chrome&ie=UTF-8"><p class="footer-contact-p">South Africa</p></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="copyright">
+                    <p class="copyright-text">Buys Management 2023. All rights reserved.</p>
+                </div>
+            </footer>
+
+            <script>
+                // Function to handle the comment submission
+                function submitComment(event) {
+                  event.preventDefault(); // Prevent form submission
+              
+                  // Get the user inputs
+                  const nameInput = document.getElementById('name');
+                  const emailInput = document.getElementById('email');
+                  const commentInput = document.getElementById('comment');
+              
+                  // Create a new comment object
+                  const comment = {
+                    name: nameInput.value,
+                    email: emailInput.value,
+                    comment: commentInput.value,
+                    replies: [] // Array to store nested replies
+                  };
+              
+                  // Clear the form inputs
+                  nameInput.value = '';
+                  emailInput.value = '';
+                  commentInput.value = '';
+              
+                  // Add the comment to the comments list
+                  const commentElement = createCommentElement(comment);
+                  const commentsList = document.getElementById('commentsList');
+                  commentsList.appendChild(commentElement);
+                }
+              
+                // Function to create a comment element
+                function createCommentElement(comment) {
+                  const commentElement = document.createElement('div');
+                  commentElement.classList.add('comment');
+              
+                  // Comment header with name and time
+                  const commentHeader = document.createElement('div');
+                  commentHeader.classList.add('comment-header');
+                  const commenterName = document.createElement('h3');
+                  commenterName.innerText = comment.name;
+                  const commentTime = document.createElement('span');
+                  commentTime.innerText = new Date().toLocaleString(); // Display current time
+                  commentHeader.appendChild(commenterName);
+                  commentHeader.appendChild(commentTime);
+              
+                  // Comment body with the comment text
+                  const commentBody = document.createElement('div');
+                  commentBody.classList.add('comment-body');
+                  const commentText = document.createElement('p');
+                  commentText.innerText = comment.comment;
+                  commentBody.appendChild(commentText);
+              
+                  // Reply button for nested comments
+                  const replyButton = document.createElement('button');
+                  replyButton.innerText = 'Reply';
+                  replyButton.addEventListener('click', showReplyForm);
+              
+                  // Reply form for nested comments
+                  const replyForm = document.createElement('form');
+                  replyForm.classList.add('comment-form', 'nested-comment-form');
+                  replyForm.style.display = 'none'; // Initially hidden
+                  const replyNameInput = document.createElement('input');
+                  replyNameInput.setAttribute('type', 'text');
+                  replyNameInput.setAttribute('placeholder', 'Your Name');
+                  const replyEmailInput = document.createElement('input');
+                  replyEmailInput.setAttribute('type', 'email');
+                  replyEmailInput.setAttribute('placeholder', 'Your Email');
+                  const replyCommentInput = document.createElement('textarea');
+                  replyCommentInput.setAttribute('placeholder', 'Your Reply');
+                  const replySubmitButton = document.createElement('button');
+                  replySubmitButton.setAttribute('type', 'submit');
+                  replySubmitButton.innerText = 'Submit';
+                  replyForm.appendChild(replyNameInput);
+                  replyForm.appendChild(replyEmailInput);
+                  replyForm.appendChild(replyCommentInput);
+                  replyForm.appendChild(replySubmitButton);
+              
+                  // Append comment elements
+                  commentElement.appendChild(commentHeader);
+                  commentElement.appendChild(commentBody);
+                  commentElement.appendChild(replyButton);
+                  commentElement.appendChild(replyForm);
+              
+                  return commentElement;
+                }
+              
+                // Function to show/hide reply form for nested comments
+                function showReplyForm(event) {
+                  const replyForm = event.target.nextElementSibling;
+                  replyForm.style.display = replyForm.style.display === 'none' ? 'block' : 'none';
+                }
+              
+                // Add event listener to the form submission
+                const commentForm = document.getElementById('commentForm');
+                commentForm.addEventListener('submit', submitComment);
+              </script>
+
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.22.2/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyAYxNJ4KRZhvyw7tJKIN0Ddi4e_9qH0HNo",
+      authDomain: "buys-management-blog.firebaseapp.com",
+      projectId: "buys-management-blog",
+      storageBucket: "buys-management-blog.appspot.com",
+      messagingSenderId: "805939663819",
+      appId: "1:805939663819:web:121e94dba2683fe4ee9c4e",
+      measurementId: "G-0X6EN4Y7K2"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
+
+            </body>
+            </html>
